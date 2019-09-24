@@ -6,30 +6,30 @@ This page provides annotations for 4 publicly available datasets,
 [PIROPO](https://sites.google.com/site/piropodatabase/),
 [Bomni](https://www.cmpe.boun.edu.tr/pilab/pilabfiles/databases/bomni/), and
 [CVRG](http://cvrg.iyte.edu.tr/). The annotations are used in our paper,
-["Omnidirectional Pedestrian Detection by Rotation Invariant Training"](https://ieeexplore.ieee.org/document/8658933).
+[Omnidirectional Pedestrian Detection by Rotation Invariant Training](https://ieeexplore.ieee.org/document/8658933).
 If you use our annotations, please follow a limitation, and cite our paper.
 
 ## Description
-<p>In this page, only annotation files are provided. For training and evaluation, please download the original images from
-the original websites.</p>
+In this page, only annotation files are provided. For training and evaluation, please download the original images from
+the original websites.
 
-<p>The annotation files for each sequence are placed in the same directory structure as the original, and the annotation file
+The annotation files for each sequence are placed in the same directory structure as the original, and the annotation file
 name is the same name as the original image file except for the extension.
 The annotations are provided in XML files that are based on [Pascal VOC](http://host.robots.ox.ac.uk/pascal/VOC/ "Pascal") format.
-All the objects in the annotation files are named as "person".</p>
+All the objects in the annotation files are named as "person".
 
-<p>We provide two types of annotations. One expresses pedestrians' area by horizontal bounding boxes, and the other
+We provide two types of annotations. One expresses pedestrians' area by horizontal bounding boxes, and the other
 expresses them by rotated bounding boxes. The former type of annotations are contained in "normal.tar.gz",
 and the latter type of annotations are contained in "rotate.tar.gz". When you use rotated version, you must rotate
 bounding boxes by yourself. Rotation angle for each bounding box is the angle between a vertical line and
-a line connecting a image center and bounding box center.</p>
+a line connecting a image center and bounding box center.
 
 ## Annotations
 ### Mirror Worlds challenge
-<p>~~The dataset can be downloaded from [here](https://icat.vt.edu/mirrorworlds/challenge/index.html "MW").~~  
-The original dataset link is expired. Please contact the original dataset provider.</p>
+~~The dataset can be downloaded from [here](https://icat.vt.edu/mirrorworlds/challenge/index.html "MW").~~  
+The original dataset link is expired. Please contact the original dataset provider.
 
-<p>The annotations are placed in "mw_18mar" directory in each tar file. Annotation statistics are as follows:</p>
+The annotations are placed in "mw_18mar" directory in each tar file. Annotation statistics are as follows:
 
 | Sequence name | #Annotation files | #Instances |
 | :--- | ---: | ---: |
@@ -66,9 +66,9 @@ The original dataset link is expired. Please contact the original dataset provid
 | MW-18Mar-31 | 19 | 35 |
 
 ### PIROPO
-<p>The dataset can be downloaded from [here](https://sites.google.com/site/piropodatabase/ "PIROPO").</p>
+The dataset can be downloaded from [here](https://sites.google.com/site/piropodatabase/ "PIROPO").
 
-<p>The annotations are placed in "piropo" directory in each tar file. Annotation statistics are as follows:</p>
+The annotations are placed in "piropo" directory in each tar file. Annotation statistics are as follows:
 
 | Sequence name | #Annotation files | #Instances |
 | :--- | ---: | ---: |
@@ -86,10 +86,10 @@ The original dataset link is expired. Please contact the original dataset provid
 | Room_B/omni_1B/omni_1B_test3 | 31 | 31 |
 
 ### Bomni
-<p>The dataset can be downloaded from [here](https://drive.google.com/file/d/1CTrNbzSJ-ZAUhakQAYnc2ZVfPFuH4MKH/view "Bomni").</p>
+The dataset can be downloaded from [here](https://drive.google.com/file/d/1CTrNbzSJ-ZAUhakQAYnc2ZVfPFuH4MKH/view "Bomni").
 
-<p>The original dataset provides videos, so we split them into images. The image file name is determined with four-digit serial number starting from 1.
-The annotations are placed in "bomni" directory in each tar file. Annotation statistics are as follows:</p>
+The original dataset provides videos, so we split them into images. The image file name is determined with four-digit serial number starting from 1.
+The annotations are placed in "bomni" directory in each tar file. Annotation statistics are as follows:
 
 | Sequence name | #Annotation files | #Instances |
 | :--- | ---: | ---: |
@@ -99,9 +99,9 @@ The annotations are placed in "bomni" directory in each tar file. Annotation sta
 | scenario1/top-0 | 101 | 288 |
 
 ### CVRG
-<p>The dataset can be downloaded from [here](http://cvrg.iyte.edu.tr/ "CVRG"). The dataset we used is Dataset 1 of 4) Omnidirectional and panoramic image dataset (with annotations) to be used for human and car detection.</p>
+The dataset can be downloaded from [here](http://cvrg.iyte.edu.tr/ "CVRG"). The dataset we used is Dataset 1 of 4) Omnidirectional and panoramic image dataset (with annotations) to be used for human and car detection.
 
-<p>The annotations are placed in "cvrg" directory in each tar file. Annotation statistics are as follows:</p>
+The annotations are placed in "cvrg" directory in each tar file. Annotation statistics are as follows:
 
 | Sequence name | #Annotation files | #Instances |
 | :--- | ---: | ---: |
