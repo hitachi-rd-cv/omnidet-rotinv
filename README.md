@@ -6,7 +6,8 @@ This page provides annotations for 4 publicly available datasets,
 [PIROPO](https://sites.google.com/site/piropodatabase/),
 [Bomni](https://www.cmpe.boun.edu.tr/pilab/pilabfiles/databases/bomni/), and
 [CVRG](http://cvrg.iyte.edu.tr/). The annotations are used in our paper,
-["Omnidirectional Pedestrian Detection by Rotation Invariant Training"](https://ieeexplore.ieee.org/document/8658933)
+["Omnidirectional Pedestrian Detection by Rotation Invariant Training"](https://ieeexplore.ieee.org/document/8658933).
+If you use our annotations, please follow a limitation, and cite our paper.
 
 ## Description
 <p>In this page, only annotation files are provided. For training and evaluation, please download the original images from
@@ -106,7 +107,7 @@ The annotations are placed in "bomni" directory in each tar file. Annotation sta
 | :--- | ---: | ---: |
 | Human Set/omni | 30 | 71 |
 
-## Limitations
+## Limitation
 All the original datasets are provided for research purpose only.
 We provide our annotations following the original limitations.
 
