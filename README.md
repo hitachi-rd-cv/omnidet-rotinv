@@ -26,8 +26,7 @@ a line connecting a image center and bounding box center.
 
 ## Annotations
 ### Mirror Worlds challenge
-~~The dataset can be downloaded from [here](https://icat.vt.edu/mirrorworlds/challenge/index.html "MW").~~  
-The original dataset link is expired. Please contact the original dataset provider.
+The dataset can be downloaded from [here](http://www2.icat.vt.edu/mirrorworlds/challenge/index.html "MW").
 
 The annotations are placed in "mw_18mar" directory in each tar file. Annotation statistics are as follows:
 
